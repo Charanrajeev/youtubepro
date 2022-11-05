@@ -17,6 +17,7 @@ body{
     min-width: 412px;
     width: 1000px;
     /* width: auto; */
+     min-height: 100vh;
     height: 100%;
     background-color: rgb(3, 10, 24);
     margin: 0 auto;
