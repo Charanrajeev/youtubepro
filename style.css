@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 .view{
-    min-width: 412px;
+    min-width: 360px;
     width: 1000px;
     /* width: auto; */
     min-height: 100vh;
@@ -56,7 +56,10 @@ body{
 }
 #width,#height{
     margin: 5px;
-    width:35px
+    width:35px;
+    color: rgb(241, 6, 6);
+    background-color: black;
+   
 }
 iframe{
     /* width: 100%; */
@@ -89,4 +92,11 @@ iframe{
     color: rgb(96, 93, 93);
     
     
+}
+.controls{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
 }
