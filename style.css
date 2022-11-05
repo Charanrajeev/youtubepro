@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view{
+    min-width: 412px;
+    width: 1000px;
+    /* width: auto; */
+    height: 100%;
+    background-color: rgb(3, 10, 24);
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.h4{
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(192, 59, 59); */
+    color: rgb(179, 19, 19);
+    font-size: 20px;
+
+}
+.input{
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#input{
+    width: 250px;
+    height: 25px;
+    display: block;
+    border-radius: 15px;
+}
+
+.input_title,.width,.height{
+    color: white;
+    
+}
+iframe{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 315px;
+    margin: 5px auto;
+    border-radius: 25px;
+    margin-bottom:15px ;
+
+}
+#btn{
+    background-color:rgb(179, 19, 19);
+    width: 125px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 15px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.study p{
+  
+    text-align: center;
+    font-size: small;
+    color: rgb(96, 93, 93);
+    
+    
+}
