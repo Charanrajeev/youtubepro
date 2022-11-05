@@ -1,6 +1,7 @@
 function inputHandler(){
     var x = document.getElementById('input').value;
     // https://youtu.be/Z-jAdo4q5L0
+    if(x){
     for(let i = 0;i<x.length;i++)
     {
         if(x.charAt(i)=='.')
@@ -14,7 +15,7 @@ function inputHandler(){
  
     ele.setAttribute('src',`https://www.youtube.com/embed/${results}`);
     
-    // title="YouTube video player"
+   
     var h =document.getElementById('height').value
     var w = document.getElementById('width').value
     ele.setAttribute('width',w)
@@ -28,7 +29,8 @@ function inputHandler(){
     
     
     var parent = document.getElementById('videodisplay');
-    parent.appendChild(ele)
+    // parent.appendChild(ele)
+    parent.insertBefore(ele,parent.children[0])
     document.getElementById('input').value=''
-    
+}
     }
